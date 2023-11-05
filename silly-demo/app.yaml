@@ -141,5 +141,5 @@ spec:
   id: silly-demo
   parameters:
     size: small
-    version: "13"
+    version: "15"
 ---
