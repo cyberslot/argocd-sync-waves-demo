@@ -44,7 +44,7 @@ spec:
               name: silly-demo
         - name: DB_NAME
           value: silly-demo
-        image: c8n.io/vfarcic/silly-demo:1.4.52
+        image: c8n.io/vfarcic/silly-demo:1.4.61
         livenessProbe:
           httpGet:
             path: /
@@ -101,7 +101,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-  - host: sillydemo.127.0.0.1.nip.io
+  - host: sillydemo.34.107.14.136.nip.io
     http:
       paths:
       - backend:
