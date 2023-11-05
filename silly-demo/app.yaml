@@ -44,7 +44,7 @@ spec:
               name: silly-demo
         - name: DB_NAME
           value: silly-demo
-        image: c8n.io/vfarcic/silly-demo:1.4.61
+        image: c8n.io/vfarcic/silly-demo:1.4.73
         livenessProbe:
           httpGet:
             path: /
@@ -121,7 +121,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "-10"
   labels:
     app.kubernetes.io/name: silly-demo
-  name: silly-demo
+  name: silly-demo-password
   namespace: silly-demo
 ---
 apiVersion: devopstoolkitseries.com/v1alpha1
@@ -141,5 +141,5 @@ spec:
   id: silly-demo
   parameters:
     size: small
-    version: "15"
+    version: "13"
 ---
