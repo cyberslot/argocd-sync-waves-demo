@@ -121,7 +121,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "-10"
   labels:
     app.kubernetes.io/name: silly-demo
-  name: silly-demo-password
+  name: silly-demo
   namespace: silly-demo
 ---
 apiVersion: devopstoolkitseries.com/v1alpha1
